@@ -14,3 +14,6 @@ response from the company.
 One downside of this website is that the menu bar is not responsive, which will pose a problem for mobile users or users with smaller display screens. There is also not many
 interactive parts of the website for the user to interact with, making the website a bit bland, but still serving its purpose. There is also not much to look at in the website
 itself other than the information that is needed, which may make the website look bland and boring.
+
+References:
+https://www.youtube.com/watch?v=ufrO-fRWdDg&list=LL&index=79&t=974s I referred to this video for the services part of my website
