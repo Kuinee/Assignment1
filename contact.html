@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starry Services - Contact</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<h1 class="heading-flexbox">Starry Services</h1>
+<nav class="nav-flexbox">
+    <a href="index.html" target="Home" id="logo"><img src="logo.png" alt="logo"></a>
+    <a class="menu" href="index.html">Home</a>
+    <a class="menu" href="about-us.html">About Us</a>
+    <a class="menu" href="services.html">Services</a>
+    <a class="menu" id="current" href="contact.html">Contact</a>
+    <form>
+        <input type="text" id="bar" placeholder="Search...">
+        <button type="submit" id="search">Go</button>
+    </form>
+</nav>
+<section class="contact-flexbox">
+    <div class="contact">
+        <h2>ADDRESS:</h2>
+        <p>Woodlands Post Office</p>
+        <p>PO Box 105</p>
+        <p>Singapore 917307</p>
+    </div>
+
+    <div class="contact">
+        <h2>PHONES:</h2>
+        <p>6368 1506</p>
+        <p>9848 1273 (Felix)</p>
+        <p>9851 0849 (Brian)</p>
+    </div>
+
+    <div class="contact">
+        <h2>EMAIL:</h2>
+        <p>sales@starry.com.sg</p>
+    </div>
+</section>
+<section class="form-flexbox">
+    <form class="form-info">
+        <h2>Form</h2>
+        <label>Name:
+            <input type="text" placeholder="Name" required><br><br>
+        </label>
+
+        <label>Email:
+            <input type="email" placeholder="Email" required><br><br>
+        </label>
+
+        <label>Contact Number:
+            <input type="text" placeholder="Contact Number" required><br>
+        </label>
+        <p>Type of Service:</p>
+        <input type="radio" id="delivery" name="Service" required>
+        <label for "delivery">Local Delivery</label><br>
+        <input type="radio" id="storage" name="Service">
+        <label for "storage">Storage</label><br>
+        <input type="radio" id="insurance" name="Service">
+        <label for "insurance">Insurance</label><br>
+        <input type="radio" id="mover" name="Service">
+        <label for "mover">Mover</label><br>
+        <input type="radio" id="logistic" name="Service">
+        <label for "logistic">Logistic</label><br>
+        <input type="radio" id="others" name="Service">
+        <label for "others">Others</label><br>
+
+        <label>Description:
+            <input type="text" placeholder="Description" required><br><br>
+        </label>
+
+        <input type="submit" value="Submit" onclick="submissionFunction()">
+
+    </form>
+</section>
+<script src="script.js"></script>
+</html>
